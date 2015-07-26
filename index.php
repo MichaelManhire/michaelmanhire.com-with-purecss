@@ -78,10 +78,9 @@ $projects["Just Do It"] = array(
                 <h2>Projects</h2>
                 <div class="pure-g">
                     <?php foreach ($projects as $project) { ?>
-                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
+                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3 project">
                         <a href="#">
                             <img class="pure-img" src="<?php echo $project["src"] ?>" alt="<?php echo $project["alt"] ?>">
-                            <div hidden><!-- Magnifying glass icon here --></div>
                         </a>
                     </div>
                     <?php } ?>
