@@ -45,7 +45,7 @@
                     <p>I create beautiful, functional websites and web applications.</p>
                 </div>
             </section>
-            <section class="projects">
+            <section id="projects" class="projects">
                 <h2>Projects</h2>
                 <div class="pure-g">
                     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
@@ -86,13 +86,13 @@
                     </div>
                 </div>
             </section>
-            <section class="about">
+            <section id="about" class="about">
                 <h2>About</h2>
                 <img class="pure-img" src="#" alt="Michael Manhire">
                 <p>Hey, I’m Michael. I’ve been learning web development for about a year, concentrating mainly on the front end languages of HTML, CSS, and JavaScript. This website serves as a repository for my web projects. Currently, web development is one of my hobbies, but I aspire to someday make it my career. Thanks for visiting!</p>
                 <a href="#" target="_blank" class="pure-button">Download My Resume</a>
             </section>
-            <section class="contact">
+            <section id="contact" class="contact">
                 <h2>Contact</h2>
                 <p>Lorem ipsum dolor sit amet... blah, blah blah.</p>
                 <form class="pure-form pure-form-stacked">
