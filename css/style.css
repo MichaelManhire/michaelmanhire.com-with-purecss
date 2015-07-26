@@ -81,4 +81,16 @@ header {
     header a:hover, header a:focus {
       color: #222; }
 
+section {
+  position: relative; }
+  section:not(.intro) {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 8rem 0; }
+  section:last-of-type {
+    padding-bottom: 0; }
+
+/* INTRO SECTION
+========================= */
+
 /*# sourceMappingURL=style.css.map */

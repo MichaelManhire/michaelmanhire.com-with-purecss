@@ -51,3 +51,19 @@ body {
 }
 
 @import 'header.scss';
+
+section {
+    position: relative;
+    
+    &:not(.intro) {
+        max-width: 90%;
+        margin: 0 auto;
+        padding: 8rem 0;
+    }
+    
+    &:last-of-type {
+        padding-bottom: 0;
+    }
+}
+
+@import 'intro.scss';
