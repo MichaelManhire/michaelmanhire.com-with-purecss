@@ -54,6 +54,7 @@ $projects["Just Do It"] = array(
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
         <!--<![endif]-->
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Open+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
