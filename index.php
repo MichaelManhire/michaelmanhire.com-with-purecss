@@ -54,6 +54,7 @@ $projects["Just Do It"] = array(
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
         <!--<![endif]-->
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <header>
@@ -108,13 +109,13 @@ $projects["Just Do It"] = array(
         <footer>
             <div class="pure-g">
                 <div class="pure-u-1-3">
-                    <span>Icon Placeholder</span>
+                    <a href="https://twitter.com/Michael_Manhire" target="_blank"><span aria-hidden="true" data-icon="&#xe801;" class="icon-twitter"></span></a>
                 </div>
                 <div class="pure-u-1-3">
-                    <span>Icon Placeholder</span>
+                    <a href="https://github.com/MichaelManhire" target="_blank"><span aria-hidden="true" data-icon="&#xe802;" class="icon-github"></span></a>
                 </div>
                 <div class="pure-u-1-3">
-                    <span>Icon Placeholder</span>
+                    <a href="https://www.linkedin.com/pub/michael-manhire/a7/583/528" target="_blank"><span aria-hidden="true" data-icon="&#xe803;" class="icon-linkedin"></span></a>
                 </div>
             </div>
         </footer>

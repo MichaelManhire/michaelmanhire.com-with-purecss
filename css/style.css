@@ -5,4 +5,41 @@
 *::after {
   box-sizing: border-box; }
 
+/* FONTS
+========================= */
+@font-face {
+  font-family: 'fontello';
+  src: url("../fonts/fontello.eot?59198101");
+  src: url("../fonts/fontello.eot?59198101#iefix") format("embedded-opentype"), url("../fonts/fontello.woff?59198101") format("woff"), url("../fonts/fontello.ttf?59198101") format("truetype"), url("../fonts/fontello.svg?59198101#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-pdf:before {
+  content: '\e800'; }
+
+.icon-twitter:before {
+  content: '\e801'; }
+
+.icon-github:before {
+  content: '\e802'; }
+
+.icon-linkedin:before {
+  content: '\e803'; }
+
+.icon-magnifying-glass:before {
+  content: '\e804'; }
+
 /*# sourceMappingURL=style.css.map */
