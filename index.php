@@ -45,6 +45,47 @@
                     <p>I create beautiful, functional websites and web applications.</p>
                 </div>
             </section>
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="pure-g">
+                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
+                        <a href="#">
+                            <img class="pure-img" src="#" alt="#">
+                            <div hidden><!-- Magnifying glass icon here --></div>
+                        </a>
+                    </div>
+                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
+                        <a href="#">
+                            <img class="pure-img" src="#" alt="#">
+                            <div hidden><!-- Magnifying glass icon here --></div>
+                        </a>
+                    </div>
+                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
+                        <a href="#">
+                            <img class="pure-img" src="#" alt="#">
+                            <div hidden><!-- Magnifying glass icon here --></div>
+                        </a>
+                    </div>
+                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
+                        <a href="#">
+                            <img class="pure-img" src="#" alt="#">
+                            <div hidden><!-- Magnifying glass icon here --></div>
+                        </a>
+                    </div>
+                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
+                        <a href="#">
+                            <img class="pure-img" src="#" alt="#">
+                            <div hidden><!-- Magnifying glass icon here --></div>
+                        </a>
+                    </div>
+                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
+                        <a href="#">
+                            <img class="pure-img" src="#" alt="#">
+                            <div hidden><!-- Magnifying glass icon here --></div>
+                        </a>
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
 </html>
