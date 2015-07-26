@@ -86,6 +86,12 @@
                     </div>
                 </div>
             </section>
+            <section class="about">
+                <h2>About</h2>
+                <img class="pure-img" src="#" alt="Michael Manhire">
+                <p>Hey, I’m Michael. I’ve been learning web development for about a year, concentrating mainly on the front end languages of HTML, CSS, and JavaScript. This website serves as a repository for my web projects. Currently, web development is one of my hobbies, but I aspire to someday make it my career. Thanks for visiting!</p>
+                <a href="#" target="_blank" class="pure-button">Download My Resume</a>
+            </section>
         </main>
     </body>
 </html>
