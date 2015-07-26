@@ -111,14 +111,14 @@ $projects["Just Do It"] = array(
         </main>
         <footer>
             <div class="pure-g">
-                <div class="pure-u-1-3">
-                    <a href="https://twitter.com/Michael_Manhire" target="_blank"><span aria-hidden="true" data-icon="&#xe801;" class="icon-twitter"></span></a>
+                <div class="pure-u-1-3 footer-item">
+                    <a href="https://twitter.com/Michael_Manhire" target="_blank" class="twitter"><span aria-hidden="true" data-icon="&#xe801;" class="icon-twitter"></span></a>
                 </div>
-                <div class="pure-u-1-3">
-                    <a href="https://github.com/MichaelManhire" target="_blank"><span aria-hidden="true" data-icon="&#xe802;" class="icon-github"></span></a>
+                <div class="pure-u-1-3 footer-item">
+                    <a href="https://github.com/MichaelManhire" target="_blank" class="github"><span aria-hidden="true" data-icon="&#xe802;" class="icon-github"></span></a>
                 </div>
-                <div class="pure-u-1-3">
-                    <a href="https://www.linkedin.com/pub/michael-manhire/a7/583/528" target="_blank"><span aria-hidden="true" data-icon="&#xe803;" class="icon-linkedin"></span></a>
+                <div class="pure-u-1-3 footer-item">
+                    <a href="https://www.linkedin.com/pub/michael-manhire/a7/583/528" target="_blank" class="linkedin"><span aria-hidden="true" data-icon="&#xe803;" class="icon-linkedin"></span></a>
                 </div>
             </div>
         </footer>

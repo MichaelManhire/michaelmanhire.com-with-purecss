@@ -1,0 +1,35 @@
+/* FOOTER
+========================= */
+
+footer {
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer-item a {
+    display: block;
+    padding: 0.5rem;
+    opacity: 0.6;
+    transition: opacity .3s;
+    
+    &:hover,
+    &:focus {
+        opacity: 1;
+    }
+}
+
+.twitter {
+    background-color: #55ACEE;
+    color: #fff;
+}
+
+.github {
+    background-color: #d3d3d3;
+    color: #171516;
+}
+
+.linkedin {
+    background-color: #0077B5;
+    color: #fff;
+}
