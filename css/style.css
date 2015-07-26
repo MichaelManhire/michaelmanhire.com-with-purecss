@@ -5,6 +5,9 @@
 *::after {
   box-sizing: border-box; }
 
+abbr[title] {
+  border-bottom: 0; }
+
 .clearfix::after {
   content: '';
   display: table;
