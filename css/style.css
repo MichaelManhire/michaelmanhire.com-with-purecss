@@ -5,6 +5,11 @@
 *::after {
   box-sizing: border-box; }
 
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both; }
+
 /* FONTS
 ========================= */
 @font-face {
@@ -110,13 +115,12 @@ h2 {
     top: 10px;
     display: block;
     height: 1px;
-    width: 60%;
+    width: 600px;
     margin: 0 auto;
     background-color: #222; }
 
 p.paragraph {
   max-width: 600px;
-  margin: 1.5rem auto 0;
   font-family: "Open Sans", Verdana, sans-serif;
   font-size: 1.12rem;
   color: #222;
@@ -175,6 +179,8 @@ section.about {
   font-family: "Open Sans", Verdana, sans-serif;
   font-size: 1.12rem;
   text-align: center; }
+  section.about p {
+    margin: 1.5rem auto 0; }
   section.about img {
     display: block;
     max-width: 100px;
@@ -182,5 +188,19 @@ section.about {
     border-radius: 100%; }
   section.about a.pure-button {
     margin: 2rem auto 0; }
+
+section.contact {
+  font-family: "Open Sans", Verdana, sans-serif;
+  font-size: 1.12rem; }
+  section.contact form {
+    max-width: 600px;
+    margin: 0 auto; }
+    section.contact form input,
+    section.contact form textarea {
+      margin-bottom: 1rem !important; }
+    section.contact form button {
+      float: right; }
+  section.contact p {
+    margin: 0 auto 2rem; }
 
 /*# sourceMappingURL=style.css.map */

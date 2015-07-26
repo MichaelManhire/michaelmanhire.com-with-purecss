@@ -1,0 +1,22 @@
+section.contact {
+    font-family: "Open Sans", Verdana, sans-serif;
+    font-size: 1.12rem;
+    
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        
+        input,
+        textarea {
+            margin-bottom: 1rem !important;
+        }
+        
+        button {
+            float: right;
+        }
+    }
+    
+    p {
+        margin: 0 auto 2rem;
+    }
+}

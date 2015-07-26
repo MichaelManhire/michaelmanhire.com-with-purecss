@@ -95,16 +95,16 @@ $projects["Just Do It"] = array(
                     Download My Resume
                 </a>
             </section>
-            <section id="contact" class="contact">
+            <section id="contact" class="contact clearfix">
                 <h2>Contact</h2>
-                <p>Lorem ipsum dolor sit amet... blah, blah blah.</p>
+                <p class="paragraph">Lorem ipsum dolor sit amet... blah, blah blah.</p>
                 <form class="pure-form pure-form-stacked">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" class="pure-input-1-5" required>
+                    <input type="text" id="name" name="name" class="pure-input-1-2" required>
                     <label for="email">Email Address</label>
-                    <input type="text" id="email" name="email" class="pure-input-1-5" required>
+                    <input type="text" id="email" name="email" class="pure-input-2-3" required>
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" class="pure-input-1-3" required></textarea>
+                    <textarea id="message" name="message" class="pure-input-1" rows="8" required></textarea>
                     <button type="submit" name="submit" class="pure-button">Submit</button>
                 </form>
             </section>
