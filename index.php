@@ -106,5 +106,18 @@
                 </form>
             </section>
         </main>
+        <footer>
+            <div class="pure-g">
+                <div class="pure-u-1-3">
+                    <span>Icon Placeholder</span>
+                </div>
+                <div class="pure-u-1-3">
+                    <span>Icon Placeholder</span>
+                </div>
+                <div class="pure-u-1-3">
+                    <span>Icon Placeholder</span>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
