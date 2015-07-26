@@ -1,4 +1,31 @@
 <!DOCTYPE html>
+<?php
+$projects = array();
+$projects["Uniquely Chic Furniture"] = array(
+    "src" => "img/uniquely_chic_furniture.png",
+    "alt" => "Uniquely Chic Furniture"
+);
+$projects["MJM General Contracting"] = array(
+    "src" => "img/mjm_general_contracting.png",
+    "alt" => "MJM General Contracting"
+);
+$projects["Iron Dome"] = array(
+    "src" => "img/iron_dome.png",
+    "alt" => "Iron Dome"
+);
+$projects["Bubbly Login"] = array(
+    "src" => "img/bubbly_login.png",
+    "alt" => "Bubbly Login"
+);
+$projects["Pomodoro Timer"] = array(
+    "src" => "img/pomodoro_timer.png",
+    "alt" => "Pomodoro Timer"
+);
+$projects["Just Do It"] = array(
+    "src" => "img/just_do_it.png",
+    "alt" => "Just Do It"
+);
+?>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -48,42 +75,14 @@
             <section id="projects" class="projects">
                 <h2>Projects</h2>
                 <div class="pure-g">
+                    <?php foreach ($projects as $project) { ?>
                     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
                         <a href="#">
-                            <img class="pure-img" src="#" alt="#">
+                            <img class="pure-img" src="<?php echo $project["src"] ?>" alt="<?php echo $project["alt"] ?>">
                             <div hidden><!-- Magnifying glass icon here --></div>
                         </a>
                     </div>
-                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
-                        <a href="#">
-                            <img class="pure-img" src="#" alt="#">
-                            <div hidden><!-- Magnifying glass icon here --></div>
-                        </a>
-                    </div>
-                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
-                        <a href="#">
-                            <img class="pure-img" src="#" alt="#">
-                            <div hidden><!-- Magnifying glass icon here --></div>
-                        </a>
-                    </div>
-                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
-                        <a href="#">
-                            <img class="pure-img" src="#" alt="#">
-                            <div hidden><!-- Magnifying glass icon here --></div>
-                        </a>
-                    </div>
-                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
-                        <a href="#">
-                            <img class="pure-img" src="#" alt="#">
-                            <div hidden><!-- Magnifying glass icon here --></div>
-                        </a>
-                    </div>
-                    <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3">
-                        <a href="#">
-                            <img class="pure-img" src="#" alt="#">
-                            <div hidden><!-- Magnifying glass icon here --></div>
-                        </a>
-                    </div>
+                    <?php } ?>
                 </div>
             </section>
             <section id="about" class="about">
