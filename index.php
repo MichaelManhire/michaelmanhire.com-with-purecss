@@ -88,7 +88,7 @@ $projects["Just Do It"] = array(
             </section>
             <section id="about" class="about">
                 <h2>About</h2>
-                <img class="pure-img photo" src="img/michael.jpg" alt="Michael Manhire">
+                <img class="pure-img" src="img/michael.jpg" alt="Michael Manhire">
                 <p class="paragraph">Hey, I’m Michael. I’ve been learning web development for about a year, concentrating mainly on the front end languages of HTML, CSS, and JavaScript. This website serves as a repository for my web projects. Currently, web development is one of my hobbies, but I aspire to someday make it my career. Thanks for visiting!</p>
                 <a href="pdf/resume.pdf" target="_blank" class="pure-button">
                     <span aria-hidden="true" data-icon="&#xe800" class="icon-pdf"></span>
