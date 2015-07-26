@@ -92,6 +92,19 @@
                 <p>Hey, I’m Michael. I’ve been learning web development for about a year, concentrating mainly on the front end languages of HTML, CSS, and JavaScript. This website serves as a repository for my web projects. Currently, web development is one of my hobbies, but I aspire to someday make it my career. Thanks for visiting!</p>
                 <a href="#" target="_blank" class="pure-button">Download My Resume</a>
             </section>
+            <section class="contact">
+                <h2>Contact</h2>
+                <p>Lorem ipsum dolor sit amet... blah, blah blah.</p>
+                <form class="pure-form pure-form-stacked">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" class="pure-input-1-5" required>
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email" name="email" class="pure-input-1-5" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="pure-input-1-3" required></textarea>
+                    <button type="submit" name="submit" class="pure-button">Submit</button>
+                </form>
+            </section>
         </main>
     </body>
 </html>
