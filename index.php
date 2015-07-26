@@ -89,7 +89,7 @@ $projects["Just Do It"] = array(
             <section id="about" class="about">
                 <h2>About</h2>
                 <img class="pure-img" src="img/michael.jpg" alt="Michael Manhire">
-                <p class="paragraph">Hey, I’m Michael. I’ve been learning web development for about a year, concentrating mainly on the front end languages of HTML, CSS, and JavaScript. This website serves as a repository for my web projects. Currently, web development is one of my hobbies, but I aspire to someday make it my career. Thanks for visiting!</p>
+                <p class="paragraph">Hey, I&rsquo;m Michael. I&rsquo;ve been learning web development for about a year, concentrating mainly on the front end languages of HTML, CSS, and JavaScript. This website serves as a repository for my web projects. Currently, web development is one of my hobbies, but I aspire to someday make it my career. Thanks for visiting!</p>
                 <a href="pdf/resume.pdf" target="_blank" class="pure-button">
                     <span aria-hidden="true" data-icon="&#xe800" class="icon-pdf"></span>
                     Download My Resume
@@ -97,7 +97,7 @@ $projects["Just Do It"] = array(
             </section>
             <section id="contact" class="contact clearfix">
                 <h2>Contact</h2>
-                <p class="paragraph">Lorem ipsum dolor sit amet... blah, blah blah.</p>
+                <p class="paragraph">I&rsquo;m a front end web developer based in San Diego, <abbr title="California">CA</abbr>. If you&rsquo;d like to contact me, please fill out the form below.</p>
                 <form class="pure-form pure-form-stacked">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" class="pure-input-1-2" required>
