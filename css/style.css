@@ -90,6 +90,30 @@ section {
   section:last-of-type {
     padding-bottom: 0; }
 
+h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  color: #222;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 300;
+  text-align: center; }
+  h2::after {
+    /* Underline Effect */
+    content: '';
+    position: relative;
+    top: 10px;
+    display: block;
+    height: 1px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #222; }
+
 /* INTRO SECTION
 ========================= */
 section.intro {
