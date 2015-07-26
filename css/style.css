@@ -86,7 +86,7 @@ section {
   section:not(.intro) {
     max-width: 90%;
     margin: 0 auto;
-    padding: 8rem 0; }
+    padding: 6.5rem 0; }
   section:last-of-type {
     padding-bottom: 0; }
 
