@@ -48,4 +48,37 @@ body {
   background-image: url(../img/main_bg.png);
   /*  Background image is from Subtle Patterns - http://www.subtlepatterns.com/ */ }
 
+/* HEADER
+==================== */
+header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 0.75rem 0;
+  background: #f5f5f5;
+  box-shadow: 0px 2px 10px #777;
+  font-family: "Open Sans", Verdana, sans-serif;
+  text-align: center; }
+  header ul.pure-menu-list {
+    display: flex !important;
+    justify-content: space-around !important; }
+    @media screen and (min-width: 48em) {
+      header ul.pure-menu-list {
+        justify-content: center !important; } }
+  header li.pure-menu-item {
+    width: 15%; }
+  header a.pure-menu-link {
+    padding: 0;
+    color: #777;
+    transition: color .3s; }
+    header a.pure-menu-link:hover, header a.pure-menu-link:focus {
+      color: #222;
+      background-color: inherit; }
+  header a {
+    color: #777;
+    transition: color .3s; }
+    header a:hover, header a:focus {
+      color: #222; }
+
 /*# sourceMappingURL=style.css.map */
