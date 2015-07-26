@@ -29,6 +29,22 @@
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
     </head>
     <body>
-    
+        <header>
+            <nav class="pure-menu pure-menu-horizontal">
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item"><a href="#projects" class="pure-menu-link">Projects</a></li>
+                    <li class="pure-menu-item"><a href="#about" class="pure-menu-link">About</a></li>
+                    <li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="intro">
+                <div>
+                    <h1>Hi, I'm Michael Manhire</h1>
+                    <p>I create beautiful, functional websites and web applications.</p>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
