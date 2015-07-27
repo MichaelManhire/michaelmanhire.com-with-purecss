@@ -1,0 +1,140 @@
+/* NORMALIZE.CSS
+==================== */
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/* Customized and minified by Michael Manhire */
+
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}header,main,section{display:block}a{background-color:transparent}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}button,input{color:inherit;font:inherit;margin:0}button{overflow:visible;text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox]{box-sizing:border-box;padding:0}
+
+/* GLOBAL
+==================== */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* FONTS
+==================== */
+
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('../fonts/droidsans.eot');
+    src: url('../fonts/droidsans.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidsans.woff2') format('woff2'),
+         url('../fonts/droidsans.woff') format('woff'),
+         url('../fonts/droidsans.ttf') format('truetype'),
+         url('../fonts/droidsans.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+button,
+input,
+h1,
+h2,
+label,
+span {
+    font-family: "Droid Sans";
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+/* ADD CONTAINER
+==================== */
+
+div.add {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: solid 2px #9c7575;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: 0;
+    border-bottom: solid 2px rgb(168,3,3);
+}
+
+input.add {
+    margin: 0 2%;
+}
+
+button {
+    padding: 10px 15px;
+    background: rgba(168,3,3,1);
+    background: -moz-linear-gradient(top, rgba(168,3,3,1) 0%, rgba(143,3,3,1) 44%, rgba(107,0,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(168,3,3,1)), color-stop(44%, rgba(143,3,3,1)), color-stop(100%, rgba(107,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(168,3,3,1) 0%, rgba(143,3,3,1) 44%, rgba(107,0,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(168,3,3,1) 0%, rgba(143,3,3,1) 44%, rgba(107,0,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(168,3,3,1) 0%, rgba(143,3,3,1) 44%, rgba(107,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(168,3,3,1) 0%, rgba(143,3,3,1) 44%, rgba(107,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a80303', endColorstr='#6b0000', GradientType=0 );
+    border: 1px solid #500000;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* LISTS
+==================== */
+
+ul {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    padding: 5px 0;
+}
+
+li input[type="text"] {
+    width: 30%;
+}
+
+li input[type="text"],
+span {
+    margin-right: 2.5%;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    top: 1px;
+    margin-right: 10px;
+}
+
+li button {
+    padding: 5px 15px;
+}
+
+li button + button {
+    margin-left: 1%;
+}
+
+.completed li span {
+    color: #555;
+    text-decoration: line-through;
+}
+
+
+/* INPUTS
+==================== */
+
+
+/* BUTTONS
+==================== */
+

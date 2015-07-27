@@ -1,0 +1,313 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/sourcesanspro-light.eot');
+    src: url('../fonts/sourcesanspro-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-light.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-light.woff') format('woff'),
+         url('../fonts/sourcesanspro-light.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-light.svg#source_sans_prolight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/sourcesanspro-regular.eot');
+    src: url('../fonts/sourcesanspro-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-regular.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-regular.svg#source_sans_proregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+form {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+input,
+input:focus,
+button {
+    font-size: 1.125em;
+}
+
+h1,
+input {
+    font-weight: 300;
+}
+
+input:focus{
+    font-weight: 400;
+}
+
+/* General */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+*,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+.wrapper {
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    background: rgba(246,41,12,1);
+    background: -moz-linear-gradient(top, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 50%, rgba(231,56,39,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(246,41,12,1)), color-stop(50%, rgba(240,47,23,1)), color-stop(100%, rgba(231,56,39,1)));
+    background: -webkit-linear-gradient(top, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 50%, rgba(231,56,39,1) 100%);
+    background: -o-linear-gradient(top, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 50%, rgba(231,56,39,1) 100%);
+    background: -ms-linear-gradient(top, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 50%, rgba(231,56,39,1) 100%);
+    background: linear-gradient(to bottom, rgba(246,41,12,1) 0%, rgba(240,47,23,1) 50%, rgba(231,56,39,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6290c', endColorstr='#e73827', GradientType=0 );
+}
+
+.login {
+    position: relative;
+    top: 5%;
+    padding: 5% 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5%;
+    color: #FFC3BB;
+    line-height: 1.5;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-put;
+}
+
+/* Form */
+
+input,
+button {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    width: 60%;
+    max-width: 250px;
+    border-radius: 3px;
+}
+
+button {
+    border: 0;
+}
+
+input {
+    margin-bottom: 2.5%;
+    background: #F73B22;
+    border: 1px solid #FF7B6A;
+    color: #FFC3BB;
+    text-align: center;
+}
+
+input:hover {
+    background: #FF4E37;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+input:focus,
+button:focus {
+    outline: 0;
+}
+
+button,
+input:focus {
+    background: #FFC3BB;
+    color: rgba(246,41,12,1);
+}
+
+/* Placeholders */
+
+input::-webkit-input-placeholder {
+    opacity: 1;
+    color: #FFC3BB;
+}
+input:-moz-placeholder {
+    opacity: 1;
+    color: #FFC3BB;
+}
+input::-moz-placeholder {
+    opacity: 1;
+    color: #FFC3BB;
+}
+input:-ms-input-placeholder {
+    opacity: 1;
+    color: #FFC3BB;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 800px) {
+    .wrapper {
+        position: absolute;
+        top: 10%;
+        height: 400px;
+    }
+    
+    .login {
+        position: static;
+    }
+    
+    form {
+        z-index: 2;
+        position: relative;
+    }
+    
+    h1 {
+        margin-bottom: 20px;
+    }
+    
+    input,
+    button {
+        margin-bottom: 15px;
+    }
+    
+    /* Bubbles */
+    
+    .bubbles {
+        z-index: 1; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .bubbles li {
+        position: absolute;
+        bottom: -160px;
+        display: block;
+        width: 100px;
+        height: 100px;
+        list-style: none;
+        border-radius: 100%;
+        background-color: #FFF;
+        opacity: .15;
+
+        -webkit-animation: circle 20s infinite;
+        animation: circle 20s infinite;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+    }
+    
+    .bubbles li:nth-child(1) {
+        left: 5%;
+        animation-duration: 25s;
+        -webkit-animation-duration: 25s;
+    }
+    
+    .bubbles li:nth-child(2) {
+        left: 20%;
+        width: 80px;
+        height: 80px;
+        animation-delay: 2s;
+        animation-duration: 15s;
+        -webkit-animation-delay: 2s;
+        -webkit-animation-duration: 15s;
+    }
+    
+    .bubbles li:nth-child(3) {
+        left: 15%;
+        animation-delay: 4s;
+        -webkit-animation-delay: 4s;
+    }
+    
+    .bubbles li:nth-child(4) {
+        left: 50%;
+        width: 60px;
+        height: 60px;
+        animation-duration: 17s;
+        -webkit-animation-duration: 17s;
+    }
+    
+    .bubbles li:nth-child(5) {
+        left: 60%;
+        animation-duration: 23s;
+        -webkit-animation-duration: 23s;
+    }
+    
+    .bubbles li:nth-child(6) {
+        left: 70%;
+        width: 120px;
+        height: 120px;
+        animation-delay: 3s;
+        -webkit-animation-delay: 3s;
+        animation-duration: 13s;
+        -webkit-animation-duration: 13s;    
+    }
+    
+    .bubbles li:nth-child(7) {
+        left: 32%;
+        width: 160px;
+        height: 160px;
+        animation-delay: 7s;
+        -webkit-animation-delay: 7s;
+    }
+    
+    .bubbles li:nth-child(8) {
+        left: 55%;
+        width: 45px;
+        height: 45px;
+        animation-delay: 15s;
+        animation-duration: 25s;
+        -webkit-animation-delay: 15s;
+        -webkit-animation-duration: 25s;
+    }
+    
+    .bubbles li:nth-child(9) {
+        left: 25%;
+        width: 50px;
+        height: 50px;
+        animation-delay: 2s;
+        animation-duration: 25s;
+        -webkit-animation-delay: 2s;
+        -webkit-animation-duration: 25s;
+    }
+    
+    .bubbles li:nth-child(10) {
+        left: 80%;
+        width: 160px;
+        height: 160px;
+        animation-delay: 5s;
+        -webkit-animation-delay: 5s;
+    }
+    
+    @-webkit-keyframes circle {
+		0% {
+				transform: translateY(0);
+		}
+		100% {
+				transform: translateY(-700px);
+		}
+    }
+
+    @keyframes circle {
+            0% {
+                    transform: translateY(0);
+            }
+            100% {
+                    transform: translateY(-700px) rotate(600deg);
+            }
+    }
+    
+    .success {
+        transform: translateY(85px);
+    }
+    
+}
