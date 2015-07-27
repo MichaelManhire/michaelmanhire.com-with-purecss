@@ -603,6 +603,8 @@ footer {
   font-family: "Source Sans Pro";
   font-size: 1.7rem;
   font-weight: 300; }
+.remodal p {
+  text-align: left; }
 .remodal p,
 .remodal a {
   font-family: "Open Sans", Verdana, sans-serif;
