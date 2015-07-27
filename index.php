@@ -2,63 +2,63 @@
 <?php
 $projects = array();
 $projects["Uniquely Chic Furniture"] = array(
-    "img src" => "img/uniquely_chic_furniture.png",
+    "img_src" => "img/uniquely_chic_furniture.png",
     "name" => "Uniquely Chic Furniture",
     "id" => "uniquely_chic_furniture",
     "desc" => "Uniquely Chic Furniture is a furniture refinishing company. I built their website with Wordpress, creating a child theme from the popular Virtue theme. Additionally, I added plugins, including an e-commerce plugin that linked their Etsy store to their new website.",
-    "source code" => false,
+    "source_code" => false,
     "demo" => false,
     "site" => true,
     "site_href" => "http://uniquelychicfurniture.com"
 );
 $projects["MJM General Contracting"] = array(
-    "img src" => "img/mjm_general_contracting.png",
+    "img_src" => "img/mjm_general_contracting.png",
     "name" => "MJM General Contracting",
     "id" => "mjm_general_contracting",
     "desc" => "MJM General Contracting is a website that I built with Bootstrap. It is based on the Worthy template for Bootstrap, which I customized to suit the particular needs of the hypothetical MJM General Contracting company.",
-    "source code" => false,
+    "source_code" => false,
     "demo" => true,
     "demo_href" => "portfolio/mjm_general_contracting/index.html",
     "site" => false
 );
 $projects["Iron Dome"] = array(
-    "img src" => "img/iron_dome.png",
+    "img_src" => "img/iron_dome.png",
     "name" => "Iron Dome",
     "id" => "iron_dome",
     "desc" => "Iron Dome is a website that I built with Bootstrap. The styling is entirely my own, although I have drawn inspiration for it from other sites around the web.",
-    "source code" => false,
+    "source_code" => false,
     "demo" => true,
     "demo_href" => "portfolio/iron_dome/index.html",
     "site" => false
 );
 $projects["Bubbly Login"] = array(
-    "img src" => "img/bubbly_login.png",
+    "img_src" => "img/bubbly_login.png",
     "name" => "Bubbly Login",
     "id" => "bubbly_login",
     "desc" => "The Bubbly Login page is a neat login demo that features an animated background on large screens and browsers that support CSS3 transforms. It does not actually provide any login functionality; rather, it&rsquo;s just a neat design.",
-    "source code" => true,
+    "source_code" => true,
     "source_code_href" => "https://github.com/MichaelManhire/simple-css-animated-bg",
     "demo" => true,
     "demo_href" => "portfolio/bubbly_login/index.html",
     "site" => false
 );
 $projects["Pomodoro Timer"] = array(
-    "img src" => "img/pomodoro_timer.png",
+    "img_src" => "img/pomodoro_timer.png",
     "name" => "Pomodoro Timer",
     "id" => "pomodoro_timer",
     "desc" => "The Pomodoro Timer is a JavaScript web app that schedules work/study times and breaks in accordance with the <a href='https://en.wikipedia.org/wiki/Pomodoro_Technique'>Pomodoro Technique</a>.",
-    "source code" => true,
+    "source_code" => true,
     "source_code_href" => "https://github.com/MichaelManhire/javascript-pomodoro-timer",
     "demo" => true,
     "demo_href" => "portfolio/pomodoro_timer/index.html",
     "site" => false
 );
 $projects["Just Do It"] = array(
-    "img src" => "img/just_do_it.png",
+    "img_src" => "img/just_do_it.png",
     "name" => "Just Do It",
     "id" => "just_do_it",
     "desc" => "Just Do It is a JavaScript web app that provides a fully functional to-do list. Users can add tasks to the list, mark tasks as completed, delete tasks from the list, and edit tasks as needed.",
-    "source code" => true,
+    "source_code" => true,
     "source_code_href" => "https://github.com/MichaelManhire/javascript-to-do-list",
     "demo" => true,
     "demo_href" => "portfolio/just_do_it/index.html",
@@ -128,7 +128,7 @@ $projects["Just Do It"] = array(
                     <?php foreach ($projects as $project) { ?>
                     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3 project">
                         <a href="#" id="<?php echo $project["id"] ?>">
-                            <img class="pure-img" src="<?php echo $project["img src"] ?>" alt="<?php echo $project["name"] ?>">
+                            <img class="pure-img" src="<?php echo $project["img_src"] ?>" alt="<?php echo $project["name"] ?>">
                         </a>
                     </div>
                     <?php } ?>
@@ -139,7 +139,7 @@ $projects["Just Do It"] = array(
                         <h3><?php echo $project["name"] ?></h3>
                         <p><?php echo $project["desc"] ?></p>
                         <br>
-                        <?php if ($project["source code"]) { echo "<a href='$project[source_code_href]' target='_blank' class='pure-button pure-button-primary'>View Source Code</a>"; } ?>
+                        <?php if ($project["source_code"]) { echo "<a href='$project[source_code_href]' target='_blank' class='pure-button pure-button-primary'>View source_code</a>"; } ?>
                         <?php if ($project["demo"]) { echo "<a href='$project[demo_href]' target='_blank' class='pure-button pure-button-primary'>View Demo</a>"; } ?>
                         <?php if ($project["site"]) { echo "<a href='$project[site_href]' target='_blank' class='pure-button pure-button-primary'>View Website</a>"; } ?>
                     </div>
