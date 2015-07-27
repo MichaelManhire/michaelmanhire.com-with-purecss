@@ -3,6 +3,7 @@
 $projects = array();
 $projects["Uniquely Chic Furniture"] = array(
     "img_src" => "img/uniquely_chic_furniture.png",
+    "modal_img_src" => "img/uniquely_chic_furniture_modal.jpg",
     "name" => "Uniquely Chic Furniture",
     "id" => "uniquely_chic_furniture",
     "desc" => "Uniquely Chic Furniture is a furniture refinishing company. I built their website with Wordpress, creating a child theme from the popular Virtue theme. Additionally, I added plugins, including an e-commerce plugin that linked their Etsy store to their new website.",
@@ -13,6 +14,7 @@ $projects["Uniquely Chic Furniture"] = array(
 );
 $projects["MJM General Contracting"] = array(
     "img_src" => "img/mjm_general_contracting.png",
+    "modal_img_src" => "img/mjm_general_contracting_modal.jpg",
     "name" => "MJM General Contracting",
     "id" => "mjm_general_contracting",
     "desc" => "MJM General Contracting is a website that I built with Bootstrap. It is based on the Worthy template for Bootstrap, which I customized to suit the particular needs of the hypothetical MJM General Contracting company.",
@@ -23,6 +25,7 @@ $projects["MJM General Contracting"] = array(
 );
 $projects["Iron Dome"] = array(
     "img_src" => "img/iron_dome.png",
+    "modal_img_src" => "img/iron_dome_modal.jpg",
     "name" => "Iron Dome",
     "id" => "iron_dome",
     "desc" => "Iron Dome is a website that I built with Bootstrap. The styling is entirely my own, although I have drawn inspiration for it from other sites around the web.",
@@ -33,6 +36,7 @@ $projects["Iron Dome"] = array(
 );
 $projects["Bubbly Login"] = array(
     "img_src" => "img/bubbly_login.png",
+    "modal_img_src" => "img/bubbly_login_modal.jpg",
     "name" => "Bubbly Login",
     "id" => "bubbly_login",
     "desc" => "The Bubbly Login page is a neat login demo that features an animated background on large screens and browsers that support CSS3 transforms. It does not actually provide any login functionality; rather, it&rsquo;s just a neat design.",
@@ -44,6 +48,7 @@ $projects["Bubbly Login"] = array(
 );
 $projects["Pomodoro Timer"] = array(
     "img_src" => "img/pomodoro_timer.png",
+    "modal_img_src" => "img/pomodoro_timer_modal.jpg",
     "name" => "Pomodoro Timer",
     "id" => "pomodoro_timer",
     "desc" => "The Pomodoro Timer is a JavaScript web app that schedules work/study times and breaks in accordance with the <a href='https://en.wikipedia.org/wiki/Pomodoro_Technique'>Pomodoro Technique</a>.",
@@ -55,6 +60,7 @@ $projects["Pomodoro Timer"] = array(
 );
 $projects["Just Do It"] = array(
     "img_src" => "img/just_do_it.png",
+    "modal_img_src" => "img/just_do_it_modal.jpg",
     "name" => "Just Do It",
     "id" => "just_do_it",
     "desc" => "Just Do It is a JavaScript web app that provides a fully functional to-do list. Users can add tasks to the list, mark tasks as completed, delete tasks from the list, and edit tasks as needed.",
@@ -137,9 +143,10 @@ $projects["Just Do It"] = array(
                     <div class="remodal" data-remodal-id="<?php echo $project["id"] ?>">
                         <button data-remodal-action="close" class="remodal-close"></button>
                         <h3><?php echo $project["name"] ?></h3>
+                        <img src="<?php echo $project["modal_img_src"] ?>" class="pure-img" alt>
                         <p><?php echo $project["desc"] ?></p>
                         <br>
-                        <?php if ($project["source_code"]) { echo "<a href='$project[source_code_href]' target='_blank' class='pure-button pure-button-primary'>View source_code</a>"; } ?>
+                        <?php if ($project["source_code"]) { echo "<a href='$project[source_code_href]' target='_blank' class='pure-button pure-button-primary'>View Source Code</a>"; } ?>
                         <?php if ($project["demo"]) { echo "<a href='$project[demo_href]' target='_blank' class='pure-button pure-button-primary'>View Demo</a>"; } ?>
                         <?php if ($project["site"]) { echo "<a href='$project[site_href]' target='_blank' class='pure-button pure-button-primary'>View Website</a>"; } ?>
                     </div>

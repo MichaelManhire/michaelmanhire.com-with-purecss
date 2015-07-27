@@ -605,6 +605,8 @@ footer {
   font-weight: 300; }
 .remodal p {
   text-align: left; }
+  .remodal p a {
+    border-bottom: 1px dotted; }
 .remodal p,
 .remodal a {
   font-family: "Open Sans", Verdana, sans-serif;
