@@ -181,16 +181,6 @@ $projects["Just Do It"] = array(
                 </div>
             </div>
         </footer>
-<!--
-        <div class="remodal" data-remodal-id="modal">
-            <button data-remodal-action="close" class="remodal-close"></button>
-            <h1>Uniquely Chic Furniture</h1>
-            <p>Uniquely Chic Furniture is a furniture refinishing company. I built their website with Wordpress, creating a child theme from the popular Virtue theme. Additionally, I added plugins, including an e-commerce plugin that linked their Etsy store to their new website.</p>
-            <br>
-            <button data-remodal-action="cancel" class="remodal-cancel">View Source</button>
-            <button data-remodal-action="confirm" class="remodal-confirm">View Demo</button>
-        </div>
--->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
         <script type="text/javascript">
