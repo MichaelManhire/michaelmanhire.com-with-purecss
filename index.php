@@ -2,28 +2,67 @@
 <?php
 $projects = array();
 $projects["Uniquely Chic Furniture"] = array(
-    "src" => "img/uniquely_chic_furniture.png",
-    "alt" => "Uniquely Chic Furniture"
+    "img src" => "img/uniquely_chic_furniture.png",
+    "name" => "Uniquely Chic Furniture",
+    "id" => "uniquely_chic_furniture",
+    "desc" => "Uniquely Chic Furniture is a furniture refinishing company. I built their website with Wordpress, creating a child theme from the popular Virtue theme. Additionally, I added plugins, including an e-commerce plugin that linked their Etsy store to their new website.",
+    "source code" => false,
+    "demo" => false,
+    "site" => true,
+    "site_href" => "http://uniquelychicfurniture.com"
 );
 $projects["MJM General Contracting"] = array(
-    "src" => "img/mjm_general_contracting.png",
-    "alt" => "MJM General Contracting"
+    "img src" => "img/mjm_general_contracting.png",
+    "name" => "MJM General Contracting",
+    "id" => "mjm_general_contracting",
+    "desc" => "",
+    "source code" => false,
+    "demo" => true,
+    "demo_href" => "portfolio/mjm_general_contracting/index.html",
+    "site" => false
 );
 $projects["Iron Dome"] = array(
-    "src" => "img/iron_dome.png",
-    "alt" => "Iron Dome"
+    "img src" => "img/iron_dome.png",
+    "name" => "Iron Dome",
+    "id" => "iron_dome",
+    "desc" => "",
+    "source code" => false,
+    "demo" => true,
+    "demo_href" => "portfolio/iron_dome/index.html",
+    "site" => false
 );
 $projects["Bubbly Login"] = array(
-    "src" => "img/bubbly_login.png",
-    "alt" => "Bubbly Login"
+    "img src" => "img/bubbly_login.png",
+    "name" => "Bubbly Login",
+    "id" => "bubbly_login",
+    "desc" => "",
+    "source code" => true,
+    "source_code_href" => "https://github.com/MichaelManhire/simple-css-animated-bg",
+    "demo" => true,
+    "demo_href" => "portfolio/bubbly_login/index.html",
+    "site" => false
 );
 $projects["Pomodoro Timer"] = array(
-    "src" => "img/pomodoro_timer.png",
-    "alt" => "Pomodoro Timer"
+    "img src" => "img/pomodoro_timer.png",
+    "name" => "Pomodoro Timer",
+    "id" => "pomodoro_timer",
+    "desc" => "",
+    "source code" => true,
+    "source_code_href" => "https://github.com/MichaelManhire/javascript-pomodoro-timer",
+    "demo" => true,
+    "demo_href" => "portfolio/pomodoro_timer/index.html",
+    "site" => false
 );
 $projects["Just Do It"] = array(
-    "src" => "img/just_do_it.png",
-    "alt" => "Just Do It"
+    "img src" => "img/just_do_it.png",
+    "name" => "Just Do It",
+    "id" => "just_do_it",
+    "desc" => "",
+    "source code" => true,
+    "source_code_href" => "https://github.com/MichaelManhire/javascript-to-do-list",
+    "demo" => true,
+    "demo_href" => "portfolio/just_do_it/index.html",
+    "site" => false
 );
 ?>
 <html lang="en">
@@ -76,7 +115,7 @@ $projects["Just Do It"] = array(
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="remodal-bg">
             <section class="intro">
                 <div class="animated fadeIn">
                     <h1 class="animated fadeInDown">Hi, I'm Michael Manhire</h1>
@@ -88,12 +127,23 @@ $projects["Just Do It"] = array(
                 <div class="pure-g">
                     <?php foreach ($projects as $project) { ?>
                     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3 project">
-                        <a href="#">
-                            <img class="pure-img" src="<?php echo $project["src"] ?>" alt="<?php echo $project["alt"] ?>">
+                        <a href="#" id="<?php echo $project["id"] ?>">
+                            <img class="pure-img" src="<?php echo $project["img src"] ?>" alt="<?php echo $project["name"] ?>">
                         </a>
                     </div>
                     <?php } ?>
                 </div>
+                <?php foreach ($projects as $project) { ?>
+                    <div class="remodal" data-remodal-id="<?php echo $project["id"] ?>">
+                        <button data-remodal-action="close" class="remodal-close"></button>
+                        <h3><?php echo $project["name"] ?></h3>
+                        <p><?php echo $project["desc"] ?></p>
+                        <br>
+                        <?php if ($project["source code"]) { echo "<a href='$project[source_code_href]' target='_blank' class='pure-button pure-button-primary'>View Source Code</a>"; } ?>
+                        <?php if ($project["demo"]) { echo "<a href='$project[demo_href]' target='_blank' class='pure-button pure-button-primary'>View Demo</a>"; } ?>
+                        <?php if ($project["site"]) { echo "<a href='$project[site_href]' target='_blank' class='pure-button pure-button-primary'>View Website</a>"; } ?>
+                    </div>
+                <?php } ?>
             </section>
             <section id="about" class="about">
                 <h2>About</h2>
@@ -131,27 +181,27 @@ $projects["Just Do It"] = array(
                 </div>
             </div>
         </footer>
+<!--
+        <div class="remodal" data-remodal-id="modal">
+            <button data-remodal-action="close" class="remodal-close"></button>
+            <h1>Uniquely Chic Furniture</h1>
+            <p>Uniquely Chic Furniture is a furniture refinishing company. I built their website with Wordpress, creating a child theme from the popular Virtue theme. Additionally, I added plugins, including an e-commerce plugin that linked their Etsy store to their new website.</p>
+            <br>
+            <button data-remodal-action="cancel" class="remodal-cancel">View Source</button>
+            <button data-remodal-action="confirm" class="remodal-confirm">View Demo</button>
+        </div>
+-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script type="text/javascript">
-            var form = $("form");
-            // Post form data to contact.php, display success message in response
-            form.submit(function(e) {
-                e.preventDefault();
-                var url = $(this).attr("action");
-                var formData = $(this).serialize();
-                $.post(url, formData, function(response) {
-                   form.html('<p class="success animated fadeIn">Message received! Thanks!</p>'); 
-                });
-            });
-        </script>
         <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
         <script type="text/javascript">
-            /*  Changes the default scrolling behavior when the user clicks on a nav link */
+            // Change the default scrolling behavior when the user clicks on a nav link
             smoothScroll.init({
                 speed: 1000,
                 easing: 'easeInOutCubic',
                 offset: 55
             });
         </script>
+        <script src="js/remodal.min.js"></script>
+        <script src="js/events.js"></script>
     </body>
 </html>
