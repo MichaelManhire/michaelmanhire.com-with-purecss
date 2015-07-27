@@ -13,10 +13,14 @@ header {
     text-align: center;
     
     ul.pure-menu-list {
+        display: -ms-flexbox !important;
+        display: -webkit-flex !important;
         display: flex !important;
+        -webkit-justify-content: space-around !important;
         justify-content: space-around !important;
         
         @media screen and (min-width: 48em) {
+            -webkit-justify-content: center !important;
             justify-content: center !important;
         }
     }
