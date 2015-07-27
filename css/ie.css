@@ -1,0 +1,84 @@
+/* HEADER
+========================= */
+
+header {
+    padding: 12px 0;
+}
+
+header ul.pure-menu-list {
+    display: block !important;
+}
+
+/* MAIN
+========================= */
+
+section.about,
+section.projects,
+section.contact {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+section.contact {
+    padding-bottom: 0;
+}
+
+h2 {
+    padding: 16px 0;
+}
+
+/* INTRO SECTION
+========================= */
+
+section.intro {
+    height: 600px;
+    background: url("../img/intro_bg_lg.jpg") no-repeat top;    
+}
+
+section.intro div {
+    padding: 0 16px;
+    background-color: #000;
+}
+
+/* PROJECTS SECTION
+========================= */
+
+div.project {
+    margin-bottom: 56px;
+}
+
+/* ABOUT SECTION
+========================= */
+
+section.about {
+    top: -56px;
+}
+
+section.about img {
+    display: none;
+}
+
+section.about p,
+section.contact p {
+    margin: 0 auto;
+}
+
+section.about a.pure-button {
+    margin: 32px auto 0;
+}
+
+/* CONTACT SECTION
+========================= */
+
+section.contact p {
+    margin-bottom: 32px;
+}
+
+/* FOOTER
+========================= */
+
+footer {
+    margin-top: 80px;
+    font-size: 32px;
+}
