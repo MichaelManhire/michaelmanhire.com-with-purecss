@@ -107,7 +107,7 @@ $projects["Just Do It"] = array(
             <section id="contact" class="contact clearfix">
                 <h2>Contact</h2>
                 <p class="paragraph">I&rsquo;m a front end web developer based in San Diego, <abbr title="California">CA</abbr>. If you&rsquo;d like to contact me, please fill out the form below.</p>
-                <form class="pure-form pure-form-stacked">
+                <form class="pure-form pure-form-stacked" action="php/contact.php" method="post">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" class="pure-input-1-2" required>
                     <label for="email">Email Address</label>
@@ -132,4 +132,17 @@ $projects["Just Do It"] = array(
             </div>
         </footer>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        var form = $("form");
+        // Post form data to contact.php, display success message in response
+        form.submit(function(e) {
+            e.preventDefault();
+            var url = $(this).attr("action");
+            var formData = $(this).serialize();
+            $.post(url, formData, function(response) {
+               form.html('<p class="success animated fadeIn">Message received! Thanks!</p>'); 
+            });
+        });
+    </script>
 </html>
