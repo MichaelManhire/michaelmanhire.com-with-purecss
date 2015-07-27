@@ -57,7 +57,10 @@ $projects["Just Do It"] = array(
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Open+Sans' rel='stylesheet' type='text/css'>
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
         <!--[if lt IE 9]>
-        <link rel="stylesheet" type="text/css" href="css/ie.css">
+        <link rel="stylesheet" type="text/css" href="css/ie8.css">
+        <![endif]-->
+        <!--[if IE 9]>
+        <link rel="stylesheet" type="text/css" href="css/ie9.css">
         <![endif]-->
         <!--[if lt IE 9]>
         <script src="js/html5shiv.min.js"></script>
