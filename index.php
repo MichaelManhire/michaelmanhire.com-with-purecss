@@ -55,7 +55,13 @@ $projects["Just Do It"] = array(
         <!--<![endif]-->
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Open+Sans' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="css/ie.css">
+        <![endif]-->
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <![endif]-->
     </head>
     <body>
         <header>
