@@ -111,7 +111,7 @@ $projects["Just Do It"] = array(
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" class="pure-input-1-2" required>
                     <label for="email">Email Address</label>
-                    <input type="text" id="email" name="email" class="pure-input-2-3" required>
+                    <input type="email" id="email" name="email" class="pure-input-2-3" required>
                     <label for="message">Message</label>
                     <textarea id="message" name="message" class="pure-input-1" rows="8" required></textarea>
                     <button type="submit" name="submit" class="pure-button">Submit</button>
