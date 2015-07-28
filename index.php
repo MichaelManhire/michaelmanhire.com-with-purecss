@@ -77,20 +77,17 @@ $projects["Just Do It"] = array(
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Michael Manhire | Front-End Web Developer</title>
-<!--
-        <meta name="author" content="[author]">
-        <meta name="description" content="[description]">
-        <meta name="robots" content="[robots]">
-        <meta property="og:title" content="[title]">
+        <meta name="author" content="Michael Manhire">
+        <meta name="description" content="Michael Manhire is a front end web developer based in San Diego, California. Learn more about his skills and experience in creating websites.">
+        <meta name="robots" content="index, follow">
+        <meta property="og:title" content="Michael Manhire | Web Developer">
+        <meta property="og:description" content="Michael Manhire is a front end web developer based in San Diego, California. Learn more about his skills and experience in creating websites.">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="[image]">
-        <meta property="og:url" content="[url]">
-        <meta property="og:description" content="[description]">
-        <meta property="og:site_name" content="[site_name]">
+        <meta property="og:url" content="http://www.michaelmanhire.com/">
         <meta name="twitter:card" content="summary">
-        <meta name="twitter:site" content="[site]">
-        <meta name="twitter:creator:id" content="[creator]">
--->
+        <meta name="twitter:site" content="@Michael_Manhire">
+        <meta name="twitter:title" content="Michael Manhire | Web Developer">
+        <meta name="twitter:description" content="Michael Manhire is a front end web developer based in San Diego, California. Learn more about his skills and experience in creating websites.">
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
         <!--[if lte IE 8]>
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
@@ -110,6 +107,7 @@ $projects["Just Do It"] = array(
         <!--[if lt IE 9]>
         <script src="js/html5shiv.min.js"></script>
         <![endif]-->
+        <link rel="shortcut icon" href="favicon.ico">
     </head>
     <body>
         <header>
@@ -200,5 +198,7 @@ $projects["Just Do It"] = array(
         </script>
         <script src="js/remodal.min.js"></script>
         <script src="js/events.js"></script>
+        <script src="//static.getclicky.com/js" type="text/javascript"></script>
+        <script type="text/javascript">try{ clicky.init(100852129); }catch(e){}</script>
     </body>
 </html>
