@@ -14,8 +14,12 @@
     }
     
     p,
-    a {
+    a.pure-button {
         font-family: "Open Sans", Verdana, sans-serif;
         font-size: 1.12rem;
+    }
+    
+    a.pure-button + a.pure-button {
+        margin-top: 1rem;
     }
 }

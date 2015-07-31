@@ -647,8 +647,10 @@ footer {
   .remodal p a {
     border-bottom: 1px dotted; }
 .remodal p,
-.remodal a {
+.remodal a.pure-button {
   font-family: "Open Sans", Verdana, sans-serif;
   font-size: 1.12rem; }
+.remodal a.pure-button + a.pure-button {
+  margin-top: 1rem; }
 
 /*# sourceMappingURL=style.css.map */
