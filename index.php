@@ -96,7 +96,7 @@ $projects["Just Do It"] = array(
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
         <!--<![endif]-->
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
-        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300|Open+Sans' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans%7CSource+Sans+Pro:300" rel="stylesheet" type="text/css">
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
         <!--[if lt IE 9]>
         <link rel="stylesheet" type="text/css" href="css/ie8.css">
@@ -155,7 +155,7 @@ $projects["Just Do It"] = array(
                 <img class="pure-img" src="img/michael.jpg" alt="Michael Manhire">
                 <p class="paragraph">Hey, I&rsquo;m Michael. I&rsquo;ve been learning web development for about a year, concentrating mainly on the front end languages of HTML, CSS, and JavaScript. This website serves as a repository for my web projects. Currently, web development is one of my hobbies, but I aspire to someday make it my career. Thanks for visiting!</p>
                 <a href="pdf/resume.pdf" target="_blank" class="pure-button">
-                    <span aria-hidden="true" data-icon="&#xe800" class="icon-pdf"></span>
+                    <span aria-hidden="true" data-icon="&#xe800;" class="icon-pdf"></span>
                     Download My Resume
                 </a>
             </section>
