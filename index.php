@@ -122,7 +122,7 @@ $projects["Just Do It"] = array(
         <main class="remodal-bg">
             <section class="intro">
                 <div class="animated fadeIn">
-                    <h1 class="animated fadeInDown">Hi, I'm Michael Manhire</h1>
+                    <h1 class="animated fadeInDown">Hi, I&rsquo;m Michael Manhire</h1>
                     <p class="animated fadeInUp">I create beautiful, functional websites and web applications.</p>
                 </div>
             </section>
