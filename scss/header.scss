@@ -12,6 +12,10 @@ header {
     font-family: "Open Sans", Verdana, sans-serif;
     text-align: center;
     
+    html.ie8 & {
+        padding: 12px 0;
+    }
+    
     nav.pure-menu-horizontal {
         width: auto;
     }
@@ -22,6 +26,11 @@ header {
         display: flex !important;
         -webkit-justify-content: space-around !important;
         justify-content: space-around !important;
+        
+        html.ie8 &,
+        html.ie9 & {
+            display: block !important;
+        }
         
         @media screen and (min-width: 48em) {
             -webkit-justify-content: center !important;

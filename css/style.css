@@ -430,6 +430,8 @@ header {
   box-shadow: 0px 2px 10px #707070;
   font-family: "Open Sans", Verdana, sans-serif;
   text-align: center; }
+  html.ie8 header {
+    padding: 12px 0; }
   header nav.pure-menu-horizontal {
     width: auto; }
   header ul.pure-menu-list {
@@ -438,6 +440,8 @@ header {
     display: flex !important;
     -webkit-justify-content: space-around !important;
     justify-content: space-around !important; }
+    html.ie8 header ul.pure-menu-list, html.ie9 header ul.pure-menu-list {
+      display: block !important; }
     @media screen and (min-width: 48em) {
       header ul.pure-menu-list {
         -webkit-justify-content: center !important;
@@ -461,6 +465,16 @@ section {
   section:last-of-type {
     padding-bottom: 0; }
 
+html.ie8 section.projects,
+html.ie8 section.about,
+html.ie8 section.contact {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 100px 0; }
+
+html.ie8 section.contact {
+  padding-bottom: 0; }
+
 h2 {
   position: absolute;
   top: 0;
@@ -474,6 +488,8 @@ h2 {
   font-size: 1.7rem;
   font-weight: 300;
   text-align: center; }
+  html.ie8 h2 {
+    padding: 16px 0; }
   h2::after {
     /* Underline Effect */
     content: '';
@@ -504,6 +520,9 @@ section.intro {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 300;
   text-align: center; }
+  html.ie8 section.intro {
+    height: 600px;
+    background: url("../img/intro_bg_lg.jpg") no-repeat top; }
   @media screen and (min-width: 35.5em) {
     section.intro {
       background-image: url("../img/intro_bg_md.jpg"); } }
@@ -517,6 +536,9 @@ section.intro {
     width: 100%;
     padding: 0 1rem;
     background-color: rgba(0, 0, 0, 0.7); }
+    html.ie8 section.intro div {
+      padding: 0 16px;
+      background-color: #000; }
   section.intro h1 {
     font-size: 1.7rem;
     font-weight: 300; }
@@ -530,6 +552,8 @@ div.project {
   text-align: center; }
   div.project:last-child {
     margin-bottom: 0; }
+  html.ie8 div.project {
+    margin-bottom: 56px; }
   @media screen and (min-width: 35.5em) {
     div.project:nth-last-child(2) {
       margin-bottom: 0 !important; } }
@@ -545,15 +569,23 @@ section.about {
   font-family: "Open Sans", Verdana, sans-serif;
   font-size: 1.12rem;
   text-align: center; }
+  html.ie8 section.about {
+    top: -56px; }
   section.about p {
     margin: 1.5rem auto 0; }
+    html.ie8 section.about p {
+      margin: 0 auto; }
   section.about img {
     display: block;
     max-width: 100px;
     margin: 0 auto;
     border-radius: 100%; }
+    html.ie8 section.about img {
+      display: none; }
   section.about a.pure-button {
     margin: 2rem auto 0; }
+    html.ie8 section.about a.pure-button {
+      margin: 32px auto 0; }
 
 /* CONTACT SECTION
 ========================= */
@@ -570,6 +602,8 @@ section.contact {
       float: right; }
   section.contact p {
     margin: 0 auto 2rem; }
+    html.ie8 section.contact p {
+      margin: 0 auto 32px; }
   section.contact .success {
     margin: 0 auto;
     text-align: center; }
@@ -580,6 +614,9 @@ footer {
   margin-top: 3rem;
   font-size: 2rem;
   text-align: center; }
+  html.ie8 footer {
+    margin-top: 80px;
+    font-size: 32px; }
 
 .footer-item a {
   display: block;

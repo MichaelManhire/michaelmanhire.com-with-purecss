@@ -71,7 +71,9 @@ $projects["Just Do It"] = array(
     "site" => false
 );
 ?>
-<html lang="en">
+<!--[if IE 8 ]><html class="ie8" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -90,24 +92,18 @@ $projects["Just Do It"] = array(
         <meta name="twitter:description" content="Michael Manhire is a front end web developer based in San Diego, California. Learn more about his skills and experience in creating websites.">
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
         <!--[if lte IE 8]>
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+            <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
         <![endif]-->
         <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+            <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
         <!--<![endif]-->
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
         <link href="http://fonts.googleapis.com/css?family=Open+Sans%7CSource+Sans+Pro:300" rel="stylesheet" type="text/css">
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
-        <!--[if lt IE 9]>
-        <link rel="stylesheet" type="text/css" href="css/ie8.css">
-        <![endif]-->
-        <!--[if IE 9]>
-        <link rel="stylesheet" type="text/css" href="css/ie9.css">
-        <![endif]-->
-        <!--[if lt IE 9]>
-        <script src="js/html5shiv.min.js"></script>
-        <![endif]-->
         <link rel="shortcut icon" href="favicon.ico">
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+        <![endif]-->
     </head>
     <body>
         <header>

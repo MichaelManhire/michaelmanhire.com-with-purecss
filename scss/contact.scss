@@ -21,6 +21,10 @@ section.contact {
     
     p {
         margin: 0 auto 2rem;
+        
+        html.ie8 & {
+            margin: 0 auto 32px;
+        }
     }
     
     .success {

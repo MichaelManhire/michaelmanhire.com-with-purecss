@@ -11,6 +11,11 @@ section.intro {
     font-weight: 300;
     text-align: center;
     
+    html.ie8 & {
+        height: 600px;
+        background: url("../img/intro_bg_lg.jpg") no-repeat top;
+    }
+    
     @media screen and (min-width: 35.5em) {
         background-image: url("../img/intro_bg_md.jpg");
     }
@@ -26,6 +31,11 @@ section.intro {
         width: 100%;
         padding: 0 1rem;
         background-color: rgba(0, 0, 0, 0.7);
+        
+        html.ie8 & {
+            padding: 0 16px;
+            background-color: #000;
+        }
     }
     
     h1 {

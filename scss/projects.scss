@@ -9,6 +9,10 @@ div.project {
         margin-bottom: 0;
     }
     
+    html.ie8 & {
+        margin-bottom: 56px;
+    }
+    
     @media screen and (min-width: 35.5em) {
         &:nth-last-child(2) {
             margin-bottom: 0 !important;

@@ -5,6 +5,11 @@ footer {
     margin-top: 3rem;
     font-size: 2rem;
     text-align: center;
+    
+    html.ie8 & {
+        margin-top: 80px;
+        font-size: 32px;
+    }
 }
 
 .footer-item a {

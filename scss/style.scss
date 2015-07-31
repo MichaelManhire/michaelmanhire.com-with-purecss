@@ -88,6 +88,18 @@ section {
     }
 }
 
+html.ie8 section.projects,
+html.ie8 section.about,
+html.ie8 section.contact {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+html.ie8 section.contact {
+    padding-bottom: 0;
+}
+
 h2 {
     position: absolute;
     top: 0;
@@ -101,6 +113,10 @@ h2 {
     font-size: 1.7rem;
     font-weight: 300;
     text-align: center;
+    
+    html.ie8 & {
+        padding: 16px 0;
+    }
     
     &::after {
         /* Underline Effect */

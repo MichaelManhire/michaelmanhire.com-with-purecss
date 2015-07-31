@@ -6,8 +6,16 @@ section.about {
     font-size: 1.12rem;
     text-align: center;
     
+    html.ie8 & {
+        top: -56px;
+    }
+    
     p {
         margin: 1.5rem auto 0;
+        
+        html.ie8 & {
+            margin: 0 auto;
+        }
     }
     
     img {
@@ -15,9 +23,17 @@ section.about {
         max-width: 100px;
         margin: 0 auto;
         border-radius: 100%;
+        
+        html.ie8 & {
+            display: none;
+        }
     }
     
     a.pure-button {
         margin: 2rem auto 0;
+        
+        html.ie8 & {
+            margin: 32px auto 0;
+        }
     }
 }
