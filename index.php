@@ -80,16 +80,16 @@ $projects["Just Do It"] = array(
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Michael Manhire | Front-End Web Developer</title>
         <meta name="author" content="Michael Manhire">
-        <meta name="description" content="Michael Manhire is a front end web developer based in San Diego, California. Learn more about his skills and experience in creating websites.">
+        <meta name="description" content="Michael Manhire is a front-end web developer based in San Diego, California. Learn more about his skills and experience in creating websites.">
         <meta name="robots" content="index, follow">
-        <meta property="og:title" content="Michael Manhire | Web Developer">
-        <meta property="og:description" content="Michael Manhire is a front end web developer based in San Diego, California. Learn more about his skills and experience in creating websites.">
+        <meta property="og:title" content="Michael Manhire | Front-End Web Developer">
+        <meta property="og:description" content="Michael Manhire is a front-end web developer based in San Diego, California. Learn more about his skills and experience in creating websites.">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="http://www.michaelmanhire.com/">
+        <meta property="og:url" content="http://michaelmanhire.com">
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@Michael_Manhire">
-        <meta name="twitter:title" content="Michael Manhire | Web Developer">
-        <meta name="twitter:description" content="Michael Manhire is a front end web developer based in San Diego, California. Learn more about his skills and experience in creating websites.">
+        <meta name="twitter:title" content="Michael Manhire | Front-End Web Developer">
+        <meta name="twitter:description" content="Michael Manhire is a front-end web developer based in San Diego, California. Learn more about his skills and experience in creating websites.">
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
         <!--[if lte IE 8]>
             <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
