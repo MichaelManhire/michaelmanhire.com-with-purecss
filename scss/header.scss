@@ -12,6 +12,10 @@ header {
     font-family: "Open Sans", Verdana, sans-serif;
     text-align: center;
     
+    nav.pure-menu-horizontal {
+        width: auto;
+    }
+    
     ul.pure-menu-list {
         display: -ms-flexbox !important;
         display: -webkit-flex !important;
