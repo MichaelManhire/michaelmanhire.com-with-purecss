@@ -71,7 +71,7 @@ $projects["Just Do It"] = array(
     "site" => false
 );
 ?>
-<!--[if IE 8 ]><html class="ie8" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie8 lt-ie9" lang="en"><![endif]-->
 <!--[if IE 9 ]><html class="ie9" lang="en"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
     <head>
