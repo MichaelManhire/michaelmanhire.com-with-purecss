@@ -162,7 +162,7 @@ $projects["Just Do It"] = array(
             <section id="contact" class="contact clearfix">
                 <h2>Contact</h2>
                 <p class="paragraph">I&rsquo;m a front end web developer based in San Diego, <abbr title="California">CA</abbr>. If you&rsquo;d like to contact me, please fill out the form below.</p>
-                <form class="pure-form pure-form-stacked" action="php/contact.php" method="post">
+                <form id="contact-form" class="pure-form pure-form-stacked" action="php/contact.php" method="post">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" class="pure-input-1-2" required>
                     <label for="email">Email Address</label>

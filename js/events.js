@@ -7,7 +7,8 @@ $(".project a").click(function(e) {
 })
 
 // Contact Form Submission
-$("form").submit(function(e) {
+var form = $("#contact-form");
+$(form).submit(function(e) {
     e.preventDefault();
     var url = $(this).attr("action");
     var formData = $(this).serialize();
