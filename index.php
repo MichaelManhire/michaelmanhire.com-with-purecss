@@ -134,7 +134,7 @@ $projects["Just Do It"] = array(
                     <?php } ?>
                 </div>
                 <?php foreach ($projects as $project) { ?>
-                    <div class="remodal" data-remodal-id="<?php echo $project["id"] ?>">
+                    <div class="remodal" data-remodal-id="<?php echo $project["id"] ?>" data-remodal-options="hashTracking: false">
                         <button data-remodal-action="close" class="remodal-close"></button>
                         <h3><?php echo $project["name"] ?></h3>
                         <img src="<?php echo $project["modal_img_src"] ?>" class="pure-img" alt>
