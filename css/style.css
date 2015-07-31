@@ -654,5 +654,8 @@ footer {
   font-size: 1.12rem; }
 .remodal a.pure-button + a.pure-button {
   margin-top: 1rem; }
+  @media screen and (min-width: 427px) {
+    .remodal a.pure-button + a.pure-button {
+      margin-top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
