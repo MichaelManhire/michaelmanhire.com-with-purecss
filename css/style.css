@@ -584,6 +584,8 @@ section.about {
       display: none; }
   section.about a.pure-button {
     margin: 2rem auto 0; }
+    section.about a.pure-button span {
+      margin-right: 3px; }
     html.ie8 section.about a.pure-button {
       margin: 32px auto 0; }
 

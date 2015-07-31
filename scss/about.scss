@@ -32,6 +32,10 @@ section.about {
     a.pure-button {
         margin: 2rem auto 0;
         
+        span {
+            margin-right: 3px;
+        }
+        
         html.ie8 & {
             margin: 32px auto 0;
         }

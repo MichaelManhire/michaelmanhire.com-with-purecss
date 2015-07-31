@@ -152,7 +152,7 @@ $projects["Just Do It"] = array(
                 <p class="paragraph">Hey, I&rsquo;m Michael. I&rsquo;ve been learning web development for about a year, concentrating mainly on the front end languages of HTML, CSS, and JavaScript. This website serves as a repository for my web projects. Currently, web development is one of my hobbies, but I aspire to someday make it my career. Thanks for visiting!</p>
                 <a href="pdf/resume.pdf" target="_blank" class="pure-button">
                     <span aria-hidden="true" data-icon="&#xe800;" class="icon-pdf"></span>
-                    Download My Resume
+                    View My Resume
                 </a>
             </section>
             <section id="contact" class="contact clearfix">
