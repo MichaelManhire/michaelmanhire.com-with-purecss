@@ -161,7 +161,7 @@ $projects["Just Do It"] = array(
             <section id="about" class="about">
                 <h2>About</h2>
                 <img class="pure-img" src="img/michael.jpg" alt="Michael Manhire">
-                <p class="paragraph">Hey, I&rsquo;m Michael. I&rsquo;m a front-end web developer based in San Diego, <abbr title="California">CA</abbr>. I have a year&rsquo;s worth of experience in various web projects, and I&rsquo;m adding to that experience every day. Some of the languages and frameworks I like to use are HTML5, CSS3 (with Sass), JavaScript, jQuery, PHP, Wordpress, Bootstrap, and Foundation. In the future, I plan on delving into more JavaScript frameworks and libraries so that I can build more complex web apps.</p>
+                <p class="paragraph">Freelance front-end web developer with 1&ndash;2 years of experience. Proficient in HTML5, CSS3, JavaScript, jQuery, Wordpress, Bootstrap, and other front-end frameworks. East Coast transplant, avid coffee drinker, gamer, and California burrito enthusiast.</p>
                 <a href="pdf/resume.pdf" target="_blank" class="pure-button">
                     <span aria-hidden="true" data-icon="&#xe800;" class="icon-pdf"></span>
                     View My Resume
@@ -169,7 +169,7 @@ $projects["Just Do It"] = array(
             </section>
             <section id="contact" class="contact clearfix">
                 <h2>Contact</h2>
-                <p class="paragraph">I&rsquo;m a front end web developer based in San Diego, <abbr title="California">CA</abbr>. If you&rsquo;d like to contact me, please submit the form below, and I&rsquo;ll be in touch.</p>
+                <p class="paragraph">I&rsquo;m a front-end web developer based in San Diego, <abbr title="California">CA</abbr>. If you&rsquo;d like to contact me, please submit the form below, and I&rsquo;ll be in touch.</p>
                 <form id="contact-form" class="pure-form pure-form-stacked" action="php/contact.php" method="post">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" class="pure-input-1-2" required>
