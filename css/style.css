@@ -652,6 +652,8 @@ footer {
     font-size: 1.24rem;
     font-weight: 400;
     text-align: left; }
+  .remodal img {
+    margin: 0 auto; }
   .remodal p,
   .remodal a.pure-button {
     font-family: "Open Sans", Verdana, sans-serif;
