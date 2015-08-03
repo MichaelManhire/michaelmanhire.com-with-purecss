@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <?php
+// Used in the loops in the projects section
 $projects = array();
 $projects["Uniquely Chic Furniture"] = array(
     "img_src" => "img/uniquely_chic_furniture.png",
     "modal_img_src" => "img/uniquely_chic_furniture_modal.jpg",
     "name" => "Uniquely Chic Furniture",
     "id" => "uniquely_chic_furniture",
-    "desc" => "Uniquely Chic Furniture is a furniture refinishing company. I built their website with Wordpress, creating a child theme from the popular Virtue theme. Additionally, I added plugins, including an e-commerce plugin that linked their Etsy store to their new website.",
-    "source_code" => false,
-    "demo" => false,
-    "site" => true,
+    "desc" => "Uniquely Chic Furniture&rsquo;s website was built with Wordpress. I designed a child theme and implemented blog, portfolio, and e-commerce functionality.",
+    "techs" => "HTML5, CSS3, PHP, Wordpress", // Built with...
+    "source_code" => false, // Is there source code available to view?
+    "demo" => false, // Is it a demo...
+    "site" => true, // or a website?
     "site_href" => "http://uniquelychicfurniture.com"
 );
 $projects["MJM General Contracting"] = array(
@@ -17,7 +19,8 @@ $projects["MJM General Contracting"] = array(
     "modal_img_src" => "img/mjm_general_contracting_modal.jpg",
     "name" => "MJM General Contracting",
     "id" => "mjm_general_contracting",
-    "desc" => "MJM General Contracting is a website that I built with Bootstrap. It is based on the Worthy template for Bootstrap, which I customized to suit the particular needs of the hypothetical MJM General Contracting company.",
+    "desc" => "MJM General Contracting is a demo website built with Bootstrap.",
+    "techs" => "HTML5, CSS3, JavaScript, jQuery, Bootstrap",
     "source_code" => false,
     "demo" => true,
     "demo_href" => "portfolio/mjm_general_contracting/index.html",
@@ -28,7 +31,8 @@ $projects["Iron Dome"] = array(
     "modal_img_src" => "img/iron_dome_modal.jpg",
     "name" => "Iron Dome",
     "id" => "iron_dome",
-    "desc" => "Iron Dome is a website that I built with Bootstrap. The styling is entirely my own, although I have drawn inspiration for it from other sites around the web.",
+    "desc" => "Iron Dome is a demo website built with Bootstrap.",
+    "techs" => "HTML5, CSS3, Bootstrap",
     "source_code" => false,
     "demo" => true,
     "demo_href" => "portfolio/iron_dome/index.html",
@@ -39,7 +43,8 @@ $projects["Bubbly Login"] = array(
     "modal_img_src" => "img/bubbly_login_modal.jpg",
     "name" => "Bubbly Login",
     "id" => "bubbly_login",
-    "desc" => "The Bubbly Login page is a neat login demo that features an animated background on large screens and browsers that support CSS3 transforms. It does not actually provide any login functionality; rather, it&rsquo;s just a neat design.",
+    "desc" => "Bubbly Login is a demo login page designed with some of the latest CSS3 technologies, including transitions and keyframe animations.",
+    "techs" => "HTML5, CSS3",
     "source_code" => true,
     "source_code_href" => "https://github.com/MichaelManhire/simple-css-animated-bg",
     "demo" => true,
@@ -51,7 +56,8 @@ $projects["Pomodoro Timer"] = array(
     "modal_img_src" => "img/pomodoro_timer_modal.jpg",
     "name" => "Pomodoro Timer",
     "id" => "pomodoro_timer",
-    "desc" => "The Pomodoro Timer is a JavaScript web app that schedules work/study times and breaks in accordance with the <a href='https://en.wikipedia.org/wiki/Pomodoro_Technique'>Pomodoro Technique</a>.",
+    "desc" => "Pomodoro Timer is a web app built with JavaScript.",
+    "techs" => "HTML5, CSS3, JavaScript",
     "source_code" => true,
     "source_code_href" => "https://github.com/MichaelManhire/javascript-pomodoro-timer",
     "demo" => true,
@@ -63,7 +69,8 @@ $projects["Just Do It"] = array(
     "modal_img_src" => "img/just_do_it_modal.jpg",
     "name" => "Just Do It",
     "id" => "just_do_it",
-    "desc" => "Just Do It is a JavaScript web app that provides a fully functional to-do list. Users can add tasks to the list, mark tasks as completed, delete tasks from the list, and edit tasks as needed.",
+    "desc" => "Just Do It is a web app built with JavaScript.",
+    "techs" => "HTML5, CSS3, JavaScript",
     "source_code" => true,
     "source_code_href" => "https://github.com/MichaelManhire/javascript-to-do-list",
     "demo" => true,
@@ -125,6 +132,7 @@ $projects["Just Do It"] = array(
             <section id="projects" class="projects">
                 <h2>Projects</h2>
                 <div class="pure-g">
+                    <!-- Projects Images -->
                     <?php foreach ($projects as $project) { ?>
                     <div class="pure-u-1 pure-u-sm-1-2 pure-u-lg-1-3 project">
                         <a href="#" id="<?php echo $project["id"] ?>">
@@ -133,12 +141,16 @@ $projects["Just Do It"] = array(
                     </div>
                     <?php } ?>
                 </div>
+                <!-- Modals -->
                 <?php foreach ($projects as $project) { ?>
                     <div class="remodal" data-remodal-id="<?php echo $project["id"] ?>" data-remodal-options="hashTracking: false">
                         <button data-remodal-action="close" class="remodal-close"></button>
                         <h3><?php echo $project["name"] ?></h3>
                         <img src="<?php echo $project["modal_img_src"] ?>" class="pure-img" alt>
+                        <h4>Description</h4>
                         <p><?php echo $project["desc"] ?></p>
+                        <h4>Built with</h4>
+                        <p><?php echo $project["techs"] ?></p>
                         <br>
                         <?php if ($project["source_code"]) { echo "<a href='$project[source_code_href]' target='_blank' class='pure-button pure-button-primary'>View Source Code</a>"; } ?>
                         <?php if ($project["demo"]) { echo "<a href='$project[demo_href]' target='_blank' class='pure-button pure-button-primary'>View Demo</a>"; } ?>
